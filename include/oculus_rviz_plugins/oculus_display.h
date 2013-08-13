@@ -30,11 +30,14 @@
 #ifndef RVIZ_OCULUS_DISPLAY_H
 #define RVIZ_OCULUS_DISPLAY_H
 
+#ifndef Q_MOC_RUN
+#include <boost/shared_ptr.hpp>
+#include <tf/transform_broadcaster.h>
+#endif
+
 #include <QObject>
 
 #include <OGRE/OgreRenderTargetListener.h>
-
-#include <tf/transform_broadcaster.h>
 
 #include "rviz/display.h"
 
@@ -113,9 +116,10 @@ private:
   rviz::RenderWidget *render_widget_;
   Ogre::SceneNode *scene_node_;
 
+#ifndef Q_MOC_RUN
   tf::TransformBroadcaster tf_pub_;
-
-  Oculus *oculus_;
+  boost::shared_ptr<Oculus> oculus_;
+#endif
 };
 
 } // namespace rviz
