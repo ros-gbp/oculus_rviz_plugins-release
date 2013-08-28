@@ -1,3 +1,22 @@
+## oculus_rviz_plugins - 0.0.6-1
+
+User `dgossow@dgossow-MacBookPro` released the packages in the `oculus_rviz_plugins` repository by running `/usr/bin/bloom-release --track hydro --ros-distro hydro oculus_rviz_plugins --edit` on `Wed, 28 Aug 2013 15:28:38 -0000`
+
+The `oculus_rviz_plugins` package was released.
+
+Version of package(s) in repository `oculus_rviz_plugins`:
+- rosdistro version: `0.0.6-0`
+- old version: `0.0.6-0`
+- new version: `0.0.6-1`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.21`
+- rosdistro version: `0.2.13`
+- vcstools version: `0.1.31`
+
+
 ## oculus_rviz_plugins - 0.0.6-2
 
 User `dgossow@dgossow-MacBookPro` released the packages in the `oculus_rviz_plugins` repository by running `/usr/bin/bloom-release --track groovy --ros-distro groovy oculus_rviz_plugins --edit` on `Wed, 28 Aug 2013 15:23:28 -0000`
